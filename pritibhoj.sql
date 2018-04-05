@@ -121,4 +121,4 @@ Alter table availability add foreign key(venue_id) references venue(id);
 
 Alter table availability add price_package_id int;
 Alter table availability add foreign key(price_package_id) references price_package(id);
-
+utsav changed the file
